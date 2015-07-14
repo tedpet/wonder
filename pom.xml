@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>wonder</groupId>
     <artifactId>wonder</artifactId>
-    <version>6.1.3-SNAPSHOT</version>
+    <version>6.1.4-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Project Wonder</name>
     <url>http://wiki.objectstyle.org/confluence/display/WONDER/Home</url>
@@ -12,14 +12,11 @@
         <module>Applications</module>
         <module>Examples</module>
         <module>Frameworks</module>
-        <!-- Tests module configuration not finished yet -->
-        <!-- <module>Tests</module> -->
+        <module>Tests</module>
         <module>Utilities</module>
     </modules>
 
     <properties>
-        <!-- VERY BAD PRACTICE: But there are broken tests -->
-        <maven.test.skip>true</maven.test.skip>
         <skip.apple.frameworks>true</skip.apple.frameworks>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
